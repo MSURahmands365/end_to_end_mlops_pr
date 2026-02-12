@@ -125,3 +125,4 @@ def train_and_log_model(X_train, X_test, y_train, y_test, vectorizer):
 if __name__ == "__main__":
     (X_train, X_test, y_train, y_test), vectorizer = load_and_prepare_data("notebooks/data.csv")
     train_and_log_model(X_train, X_test, y_train, y_test, vectorizer)
+    
